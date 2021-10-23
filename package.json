@@ -1,0 +1,28 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "description": "TypeScript samples of Gang of Four Design Patterns",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint src/**/*.ts",
+    "prestart": "webpack --config webpack.config.js",
+    "start": "concurrently \"prestart\" \"webpack --config webpack.config.js --watch\" \"nodemon dist\""
+  },
+  "keywords": [],
+  "license": "ISC",
+  "author": "Artem Bohush <art.bohush@gmail.com>",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "concurrently": "^6.3.0",
+    "eslint": "^8.1.0",
+    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "husky": "^7.0.4",
+    "nodemon": "^2.0.14",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
