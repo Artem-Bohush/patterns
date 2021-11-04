@@ -2,7 +2,9 @@
 // import { abstractFactory } from './creational/abstract-factory/abstract-factory';
 // import { builder } from './creational/builder/builder';
 // import { prototype } from './creational/prototype/prototype';
-import { singleton } from './creational/singleton/singleton';
+// import { singleton } from './creational/singleton/singleton';
+
+import { adapter } from './structural/adapter/adapter';
 
 console.log('============================================= START ====================================================');
 
@@ -10,6 +12,7 @@ console.log('============================================= START ===============
 // abstractFactory();
 // builder();
 // prototype();
-singleton();
+// singleton();
+adapter();
 
 console.log('============================================== END =====================================================');
