@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "eslint": "eslint src/**/*.ts",
-    "prestart": "webpack --config webpack.config.js",
-    "start": "concurrently \"prestart\" \"webpack --config webpack.config.js --watch\" \"nodemon dist\""
+    "start": "concurrently \"webpack --config webpack.config.js --watch\" \"nodemon dist\""
   },
   "keywords": [],
   "license": "ISC",
