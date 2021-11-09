@@ -3,8 +3,8 @@
 // import { builder } from './creational/builder/builder';
 // import { prototype } from './creational/prototype/prototype';
 // import { singleton } from './creational/singleton/singleton';
-
-import { adapter } from './structural/adapter/adapter';
+// import { adapter } from './structural/adapter/adapter';
+import { bridge } from './structural/bridge/bridge';
 
 console.log('============================================= START ====================================================');
 
@@ -13,6 +13,7 @@ console.log('============================================= START ===============
 // builder();
 // prototype();
 // singleton();
-adapter();
+// adapter();
+bridge();
 
 console.log('============================================== END =====================================================');
