@@ -4,7 +4,8 @@
 // import { prototype } from './creational/prototype/prototype';
 // import { singleton } from './creational/singleton/singleton';
 // import { adapter } from './structural/adapter/adapter';
-import { bridge } from './structural/bridge/bridge';
+// import { bridge } from './structural/bridge/bridge';
+import { composite } from './structural/composite/composite';
 
 console.log('============================================= START ====================================================');
 
@@ -14,6 +15,7 @@ console.log('============================================= START ===============
 // prototype();
 // singleton();
 // adapter();
-bridge();
+// bridge();
+composite();
 
 console.log('============================================== END =====================================================');
