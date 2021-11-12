@@ -5,7 +5,8 @@
 // import { singleton } from './creational/singleton/singleton';
 // import { adapter } from './structural/adapter/adapter';
 // import { bridge } from './structural/bridge/bridge';
-import { composite } from './structural/composite/composite';
+// import { composite } from './structural/composite/composite';
+import { decorator } from './structural/decorator/decorator';
 
 console.log('============================================= START ====================================================');
 
@@ -16,6 +17,7 @@ console.log('============================================= START ===============
 // singleton();
 // adapter();
 // bridge();
-composite();
+// composite();
+decorator();
 
 console.log('============================================== END =====================================================');
