@@ -6,7 +6,8 @@
 // import { adapter } from './structural/adapter/adapter';
 // import { bridge } from './structural/bridge/bridge';
 // import { composite } from './structural/composite/composite';
-import { decorator } from './structural/decorator/decorator';
+// import { decorator } from './structural/decorator/decorator';
+import { facade } from './structural/facade/facade';
 
 console.log('============================================= START ====================================================');
 
@@ -18,6 +19,7 @@ console.log('============================================= START ===============
 // adapter();
 // bridge();
 // composite();
-decorator();
+// decorator();
+facade();
 
 console.log('============================================== END =====================================================');
