@@ -7,7 +7,8 @@
 // import { bridge } from './structural/bridge/bridge';
 // import { composite } from './structural/composite/composite';
 // import { decorator } from './structural/decorator/decorator';
-import { facade } from './structural/facade/facade';
+// import { facade } from './structural/facade/facade';
+import { flyweight } from './structural/flyweight/flyweight';
 
 console.log('============================================= START ====================================================');
 
@@ -20,6 +21,7 @@ console.log('============================================= START ===============
 // bridge();
 // composite();
 // decorator();
-facade();
+// facade();
+flyweight();
 
 console.log('============================================== END =====================================================');
