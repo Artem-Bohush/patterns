@@ -8,7 +8,8 @@
 // import { composite } from './structural/composite/composite';
 // import { decorator } from './structural/decorator/decorator';
 // import { facade } from './structural/facade/facade';
-import { flyweight } from './structural/flyweight/flyweight';
+// import { flyweight } from './structural/flyweight/flyweight';
+import { proxy } from './structural/proxy/proxy';
 
 console.log('============================================= START ====================================================');
 
@@ -22,6 +23,7 @@ console.log('============================================= START ===============
 // composite();
 // decorator();
 // facade();
-flyweight();
+// flyweight();
+proxy();
 
 console.log('============================================== END =====================================================');
