@@ -9,7 +9,8 @@
 // import { decorator } from './structural/decorator/decorator';
 // import { facade } from './structural/facade/facade';
 // import { flyweight } from './structural/flyweight/flyweight';
-import { proxy } from './structural/proxy/proxy';
+// import { proxy } from './structural/proxy/proxy';
+import { chainOfResponsibility } from './behavioral/chain-of-responsibility/chain-of-responsibility';
 
 console.log('============================================= START ====================================================');
 
@@ -24,6 +25,7 @@ console.log('============================================= START ===============
 // decorator();
 // facade();
 // flyweight();
-proxy();
+// proxy();
+chainOfResponsibility();
 
 console.log('============================================== END =====================================================');
