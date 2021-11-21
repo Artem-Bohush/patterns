@@ -10,7 +10,8 @@
 // import { facade } from './structural/facade/facade';
 // import { flyweight } from './structural/flyweight/flyweight';
 // import { proxy } from './structural/proxy/proxy';
-import { chainOfResponsibility } from './behavioral/chain-of-responsibility/chain-of-responsibility';
+// import { chainOfResponsibility } from './behavioral/chain-of-responsibility/chain-of-responsibility';
+import { command } from './behavioral/command/command';
 
 console.log('============================================= START ====================================================');
 
@@ -26,6 +27,7 @@ console.log('============================================= START ===============
 // facade();
 // flyweight();
 // proxy();
-chainOfResponsibility();
+// chainOfResponsibility();
+command();
 
 console.log('============================================== END =====================================================');
