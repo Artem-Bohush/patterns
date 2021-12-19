@@ -12,7 +12,8 @@
 // import { proxy } from './structural/proxy/proxy';
 // import { chainOfResponsibility } from './behavioral/chain-of-responsibility/chain-of-responsibility';
 // import { command } from './behavioral/command/command';
-import { iterator } from './behavioral/iterator/iterator';
+// import { iterator } from './behavioral/iterator/iterator';
+import { mediator } from './behavioral/mediator/mediator';
 
 console.log('============================================= START ====================================================');
 
@@ -30,6 +31,7 @@ console.log('============================================= START ===============
 // proxy();
 // chainOfResponsibility();
 // command();
-iterator();
+// iterator();
+mediator();
 
 console.log('============================================== END =====================================================');
