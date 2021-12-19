@@ -11,7 +11,8 @@
 // import { flyweight } from './structural/flyweight/flyweight';
 // import { proxy } from './structural/proxy/proxy';
 // import { chainOfResponsibility } from './behavioral/chain-of-responsibility/chain-of-responsibility';
-import { command } from './behavioral/command/command';
+// import { command } from './behavioral/command/command';
+import { iterator } from './behavioral/iterator/iterator';
 
 console.log('============================================= START ====================================================');
 
@@ -28,6 +29,7 @@ console.log('============================================= START ===============
 // flyweight();
 // proxy();
 // chainOfResponsibility();
-command();
+// command();
+iterator();
 
 console.log('============================================== END =====================================================');
