@@ -13,7 +13,8 @@
 // import { chainOfResponsibility } from './behavioral/chain-of-responsibility/chain-of-responsibility';
 // import { command } from './behavioral/command/command';
 // import { iterator } from './behavioral/iterator/iterator';
-import { mediator } from './behavioral/mediator/mediator';
+// import { mediator } from './behavioral/mediator/mediator';
+import { memento } from './behavioral/memento/memento';
 
 console.log('============================================= START ====================================================');
 
@@ -32,6 +33,7 @@ console.log('============================================= START ===============
 // chainOfResponsibility();
 // command();
 // iterator();
-mediator();
+// mediator();
+memento();
 
 console.log('============================================== END =====================================================');
