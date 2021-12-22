@@ -14,7 +14,8 @@
 // import { command } from './behavioral/command/command';
 // import { iterator } from './behavioral/iterator/iterator';
 // import { mediator } from './behavioral/mediator/mediator';
-import { memento } from './behavioral/memento/memento';
+// import { memento } from './behavioral/memento/memento';
+import { observer } from './behavioral/observer/observer';
 
 console.log('============================================= START ====================================================');
 
@@ -34,6 +35,7 @@ console.log('============================================= START ===============
 // command();
 // iterator();
 // mediator();
-memento();
+// memento();
+observer();
 
 console.log('============================================== END =====================================================');
