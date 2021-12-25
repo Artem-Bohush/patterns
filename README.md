@@ -2,7 +2,7 @@
 
 This project will contain TypeScript samples of all the Gang of Four design patterns (except Interpreter).
 
-Work in progress thus far - 20 out of 22 patterns have been implemented already.
+Work in progress thus far - 21 out of 22 patterns have been implemented already.
 
 ### Bootstrap project
 

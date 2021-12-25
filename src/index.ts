@@ -17,7 +17,8 @@
 // import { memento } from './behavioral/memento/memento';
 // import { observer } from './behavioral/observer/observer';
 // import { state } from './behavioral/state/state';
-import { strategy } from './behavioral/strategy/strategy';
+// import { strategy } from './behavioral/strategy/strategy';
+import { templateMethod } from './behavioral/template-method/template-method';
 
 console.log('============================================= START ====================================================');
 
@@ -40,6 +41,7 @@ console.log('============================================= START ===============
 // memento();
 // observer();
 // state();
-strategy();
+// strategy();
+templateMethod();
 
 console.log('============================================== END =====================================================');
