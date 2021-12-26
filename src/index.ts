@@ -18,7 +18,8 @@
 // import { observer } from './behavioral/observer/observer';
 // import { state } from './behavioral/state/state';
 // import { strategy } from './behavioral/strategy/strategy';
-import { templateMethod } from './behavioral/template-method/template-method';
+// import { templateMethod } from './behavioral/template-method/template-method';
+import { visitor } from './behavioral/visitor/visitor';
 
 console.log('============================================= START ====================================================');
 
@@ -42,6 +43,7 @@ console.log('============================================= START ===============
 // observer();
 // state();
 // strategy();
-templateMethod();
+// templateMethod();
+visitor();
 
 console.log('============================================== END =====================================================');
